@@ -8,7 +8,7 @@ const router = require('./routes')
 
 const app = express()
 app.use(cors({
-    origin : true,
+    origin : "https://ecommerce-frontend-kappa-livid.vercel.app",
     credentials : true
 }))
 app.use(express.json())
